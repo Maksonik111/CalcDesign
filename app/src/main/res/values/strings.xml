@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">CalсDesign</string>
+
+    <style name="Operations">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@color/bg</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Nums">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@color/gray</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
 </resources>
