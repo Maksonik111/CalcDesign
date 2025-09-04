@@ -46,25 +46,32 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="480dp"
+        android:gravity="center"
         android:orientation="vertical">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:gravity="center"
             android:layout_marginBottom="20sp">
 
-            <Button
+            <TextView
+                android:id="@+id/AC"
                 style="@style/Operations"
+                android:layout_marginLeft="10dp"
                 android:text="AC" />
 
-            <Button
+            <TextView
+                android:id="@+id/operation_proc"
                 style="@style/Operations"
                 android:text="%" />
 
-            <Button
+            <TextView
+                android:id="@+id/operation_Delit"
                 style="@style/Operations"
                 android:text="Del" />
-            <Button
+            <TextView
+                android:id="@+id/operation_div"
                 style="@style/Operations"
                 android:text="/" />
 
@@ -73,20 +80,26 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:gravity="center"
             android:layout_marginBottom="20sp">
 
-            <Button
-                style="@style/Operations"
+            <TextView
+                android:id="@+id/num_7"
+                style="@style/Nums"
+                android:layout_marginLeft="10dp"
                 android:text="7" />
 
-            <Button
-                style="@style/Operations"
+            <TextView
+                android:id="@+id/num_8"
+                style="@style/Nums"
                 android:text="8" />
 
-            <Button
-                style="@style/Operations"
+            <TextView
+                android:id="@+id/num_9"
+                style="@style/Nums"
                 android:text="9" />
-            <Button
+            <TextView
+                android:id="@+id/operation_mult"
                 style="@style/Operations"
                 android:text="*" />
 
@@ -95,21 +108,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:gravity="center"
             android:layout_marginBottom="20sp">
 
-            <Button
-                style="@style/Operations"
+            <TextView
+                android:id="@+id/num_4"
+                style="@style/Nums"
+                android:layout_marginLeft="10dp"
                 android:text="4" />
 
-            <Button
-                style="@style/Operations"
+            <TextView
+                android:id="@+id/num_5"
+                style="@style/Nums"
                 android:text="5" />
 
-            <Button
-                style="@style/Operations"
+            <TextView
+                android:id="@+id/num_6"
+                style="@style/Nums"
                 android:text="6" />
-            <Button
+            <TextView
+                android:id="@+id/operation_diff"
                 style="@style/Operations"
+                android:textSize="30dp"
                 android:text="-" />
 
         </LinearLayout>
@@ -117,20 +137,26 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:gravity="center"
             android:layout_marginBottom="20sp">
 
-            <Button
-                style="@style/Operations"
+            <TextView
+                android:id="@+id/num_1"
+                style="@style/Nums"
+                android:layout_marginLeft="10dp"
                 android:text="1" />
 
-            <Button
-                style="@style/Operations"
+            <TextView
+                android:id="@+id/num_2"
+                style="@style/Nums"
                 android:text="2" />
 
-            <Button
-                style="@style/Operations"
+            <TextView
+                android:id="@+id/num_3"
+                style="@style/Nums"
                 android:text="3" />
-            <Button
+            <TextView
+                android:id="@+id/operation_sum"
                 style="@style/Operations"
                 android:text="+" />
 
@@ -139,22 +165,30 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:gravity="center"
             android:layout_marginBottom="20sp">
 
-            <Button
-                style="@style/Operations"
+            <TextView
+                android:id="@+id/num_00"
+                style="@style/Nums"
+                android:layout_marginLeft="10dp"
                 android:text="00" />
 
-            <Button
-                style="@style/Operations"
+            <TextView
+                android:id="@+id/num_0"
+                style="@style/Nums"
                 android:text="0" />
 
-            <Button
-                style="@style/Operations"
+            <TextView
+                android:id="@+id/comma"
+                style="@style/Nums"
                 android:text="," />
-            <Button
-                style="@style/Operations"
-                android:text="=" />
+
+            <TextView
+                android:id="@+id/operation_Equally"
+                style="@style/Equally"
+                android:text="="
+                />
 
         </LinearLayout>
     </LinearLayout>
