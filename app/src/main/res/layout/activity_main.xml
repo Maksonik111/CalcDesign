@@ -26,7 +26,7 @@
             android:ellipsize="start"
             android:gravity="end"
             android:singleLine="true"
-            android:text="Operation"
+            android:text=""
             android:textColor="@color/white"
             android:textSize="40dp" />
 
@@ -38,7 +38,7 @@
             android:ellipsize="start"
             android:gravity="end"
             android:singleLine="true"
-            android:text="Result"
+            android:text=""
             android:textColor="@color/white"
             android:textSize="30dp" />
     </LinearLayout>
@@ -184,7 +184,7 @@
             <TextView
                 android:id="@+id/comma"
                 style="@style/Nums"
-                android:text="," />
+                android:text="." />
 
             <TextView
                 android:id="@+id/operation_Equally"
